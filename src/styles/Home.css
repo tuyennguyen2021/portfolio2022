@@ -1,0 +1,98 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position:relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+
+.home video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+  .about {
+    margin-top: 10%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size:30px;
+  }
+
+  .footer{
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+
+  }
+
+  .about .linkTo a {
+    color:white
+  }
+
+  .about .linkTo a:hover {
+    color:blueviolet;
+  }
+
+  .socialMedia a{
+    color: white;
+    margin: auto 10px;
+  
+  }
+  .socialMedia a svg {
+    font-size: 50px;
+  }
+
+  .socialMedia a:hover {
+    color:blueviolet;
+  }
+
+  .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.25);
+  }
+  
+ 
+  
+
+  
+  
+ 
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 40px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
