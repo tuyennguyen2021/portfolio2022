@@ -34,3 +34,10 @@ const demoMovieTab = "https://movie-tab-tuyennguyen2021.vercel.app/";
 const srcMovieTab = "https://github.com/tuyennguyen2021/movie_tab";
 
 export const movieTabs = [demoMovieTab, srcMovieTab];
+
+///
+
+const demoTodoList = "https://todolistapps.vercel.app/";
+const srcTodoList = "https://github.com/tuyennguyen2021/todolistapps";
+
+export const todoListLink = [demoTodoList, srcTodoList];

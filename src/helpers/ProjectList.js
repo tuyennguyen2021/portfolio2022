@@ -4,6 +4,7 @@ import samar from "../assets/samar.png";
 import meipaly from "../assets/meipaly.png";
 import tabsUI from "../assets/tabsUI.png";
 import movietab from "../assets/movietab.png";
+import todoapps from "../assets/todoapps.png";
 import {
   weatherprojectLinks,
   PlayerMusicLinks,
@@ -11,6 +12,7 @@ import {
   meipalyLinks,
   tabsUILinks,
   movieTabs,
+  todoListLink,
 } from "./ProjectLink";
 
 export const projectCssList = [
@@ -57,6 +59,13 @@ export const projectMiniReactList = [
     skill: "Reactjs",
     demo: movieTabs[0],
     src: movieTabs[1],
+  },
+  {
+    name: "Todo List App",
+    image: todoapps,
+    skill: "Redux toolkit, expressjs",
+    demo: todoListLink[0],
+    src: todoListLink[1],
   },
 ];
 export const projectMainReactList = [

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
@@ -9,6 +9,11 @@ import GithubIcon from "@mui/icons-material/GitHub";
 import { motion } from "framer-motion";
 
 function Home() {
+  const [state, setState] = useState("");
+  const handler = (event) => {
+    console.log(state);
+    setState(event.key);
+  };
   return (
     <motion.div
       className="home"
@@ -32,7 +37,7 @@ function Home() {
           }}
         />
         <div className="linkTo">
-          <Link to="/projects">
+          <Link to="/projects" onKeyPress={(event) => handler(event)}>
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
