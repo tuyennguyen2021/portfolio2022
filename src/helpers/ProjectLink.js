@@ -41,3 +41,14 @@ const demoTodoList = "https://todolistapps.vercel.app/";
 const srcTodoList = "https://github.com/tuyennguyen2021/todolistapps";
 
 export const todoListLink = [demoTodoList, srcTodoList];
+
+const demoMovieTicket = "https://projectmoviebookticket.vercel.app/";
+const srcMovieTicket =
+  "https://github.com/tuyennguyen2021/projectmoviebookticket";
+
+export const movieTicketLink = [demoMovieTicket, srcMovieTicket];
+
+const demoPoke = "https://pokemonpj-x9nn.vercel.app/";
+const srcPoke = "https://github.com/tuyennguyen2021/pokemonpj";
+
+export const pokeLink = [demoPoke, srcPoke];

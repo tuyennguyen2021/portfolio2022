@@ -5,6 +5,8 @@ import meipaly from "../assets/meipaly.png";
 import tabsUI from "../assets/tabsUI.png";
 import movietab from "../assets/movietab.png";
 import todoapps from "../assets/todoapps.png";
+import movieTicket from "../assets/movieticket.png";
+import poke from "../assets/poke.png";
 import {
   weatherprojectLinks,
   PlayerMusicLinks,
@@ -13,6 +15,8 @@ import {
   tabsUILinks,
   movieTabs,
   todoListLink,
+  movieTicketLink,
+  pokeLink,
 } from "./ProjectLink";
 
 export const projectCssList = [
@@ -67,11 +71,20 @@ export const projectMiniReactList = [
     demo: todoListLink[0],
     src: todoListLink[1],
   },
+  {
+    name: "Pokemon List App",
+    image: poke,
+    skill: "React, Typescript",
+    demo: pokeLink[0],
+    src: pokeLink[1],
+  },
 ];
 export const projectMainReactList = [
   {
-    name: "movie",
-    image: "",
-    skill: "",
+    name: "Movie Booking Ticket",
+    image: movieTicket,
+    skill: "Reactjs, Redux, Tailwindcss",
+    demo: movieTicketLink[0],
+    src: movieTicketLink[1],
   },
 ];

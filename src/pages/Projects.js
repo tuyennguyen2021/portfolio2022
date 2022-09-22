@@ -8,12 +8,11 @@ import {
 import "../styles/Project.css";
 import bgImage from "../assets/bgImage.jpg";
 import theGuy from "../assets/theguy.png";
-import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
-import myCv from "../assets/CV.pdf";
+import myCv from "../assets/CVFE_final.pdf";
 import { motion } from "framer-motion";
 
 const contentStyle = {
@@ -95,20 +94,31 @@ function Projects() {
       <h1>React Main Projects</h1>
       <div className="projectList">
         {projectMainReactList.map((project) => {
-          return <ProjectItem name={project.name} image={project.image} />;
+          return (
+            <ProjectItem
+              name={project.name}
+              image={project.image}
+              skill={project.skill}
+              demo={project.demo}
+              src={project.src}
+            />
+          );
         })}
       </div>
       <div className="">
         <div className="socialMedia">
-          <Link to="">
+          <a href="">
             <FacebookIcon />
-          </Link>
-          <Link to="">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tuyen-nguyen-7a0479220/"
+            target="_blank"
+          >
             <LinkedInIcon />
-          </Link>
-          <Link to="">
+          </a>
+          <a href="https://github.com/tuyennguyen2021" target="_blank">
             <GithubIcon />
-          </Link>
+          </a>
           <p> &copy; 2022 by Tuyen Nguyen</p>
         </div>
       </div>

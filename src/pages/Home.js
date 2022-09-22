@@ -55,15 +55,18 @@ function Home() {
 
       <div className="footer">
         <div className="socialMedia">
-          <Link to="">
+          <a href="">
             <FacebookIcon />
-          </Link>
-          <Link to="">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tuyen-nguyen-7a0479220/"
+            target="_blank"
+          >
             <LinkedInIcon />
-          </Link>
-          <Link to="">
+          </a>
+          <a href="https://github.com/tuyennguyen2021" target="_blank">
             <GithubIcon />
-          </Link>
+          </a>
           <p> &copy; 2022 by Tuyen Nguyen</p>
         </div>
       </div>
