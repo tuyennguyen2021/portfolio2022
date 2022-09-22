@@ -1,11 +1,10 @@
----------------------- */
+
 .load-wrapp {
   position: absolute;
   height: 100%;
   top: 0;
   right: 0;
   width: 100%;
-  /* background-color: #00000085; */
   z-index: 99;
 }
 .load-height{
