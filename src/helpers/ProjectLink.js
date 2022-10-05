@@ -52,3 +52,8 @@ const demoPoke = "https://pokemonpj-x9nn.vercel.app/";
 const srcPoke = "https://github.com/tuyennguyen2021/pokemonpj";
 
 export const pokeLink = [demoPoke, srcPoke];
+
+const demoTiktik = "https://tiktok-clone-final-nine.vercel.app/";
+const srcTiktik = "https://github.com/tuyennguyen2021/tiktok-clone";
+
+export const tiktikLink = [demoTiktik, demoTiktik];

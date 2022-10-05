@@ -7,6 +7,7 @@ import movietab from "../assets/movietab.png";
 import todoapps from "../assets/todoapps.png";
 import movieTicket from "../assets/movieticket.png";
 import poke from "../assets/poke.png";
+import tiktik from "../assets/tiktik.png";
 import {
   weatherprojectLinks,
   PlayerMusicLinks,
@@ -17,6 +18,7 @@ import {
   todoListLink,
   movieTicketLink,
   pokeLink,
+  tiktikLink,
 } from "./ProjectLink";
 
 export const projectCssList = [
@@ -86,5 +88,12 @@ export const projectMainReactList = [
     skill: "Reactjs, Redux, Tailwindcss",
     demo: movieTicketLink[0],
     src: movieTicketLink[1],
+  },
+  {
+    name: "Tik Tik Short Video Social",
+    image: tiktik,
+    skill: "Nextjs, Typescript, Tailwindcss",
+    demo: tiktikLink[0],
+    src: tiktikLink[1],
   },
 ];
