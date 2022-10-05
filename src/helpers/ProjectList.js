@@ -90,7 +90,7 @@ export const projectMainReactList = [
     src: movieTicketLink[1],
   },
   {
-    name: "Tik Tik Short Video Social",
+    name: "Tik Tok Short Video Social",
     image: tiktik,
     skill: "Nextjs, Typescript, Tailwindcss",
     demo: tiktikLink[0],
