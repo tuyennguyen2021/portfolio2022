@@ -92,7 +92,7 @@ export const projectMainReactList = [
     src: movieTicketLink[1],
   },
   {
-    name: "Ecommerce Web Shopping Online",
+    name: "Ecommerce Shopping Web",
     image: ecom,
     skill: "React, Nextjs, Stripe",
     demo: ecomLink[0],
