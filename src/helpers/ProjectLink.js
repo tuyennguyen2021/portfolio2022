@@ -56,4 +56,9 @@ export const pokeLink = [demoPoke, srcPoke];
 const demoTiktik = "https://tiktok-clone-final-nine.vercel.app/";
 const srcTiktik = "https://github.com/tuyennguyen2021/tiktok-clone";
 
-export const tiktikLink = [demoTiktik, demoTiktik];
+export const tiktikLink = [demoTiktik, srcTiktik];
+
+const demoEcom = "https://ecommerce-sanity-tech.vercel.app/";
+const srcEcom = "https://github.com/tuyennguyen2021/ecommerce-sanity-tech";
+
+export const ecomLink = [demoEcom, srcEcom];

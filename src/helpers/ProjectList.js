@@ -8,6 +8,7 @@ import todoapps from "../assets/todoapps.png";
 import movieTicket from "../assets/movieticket.png";
 import poke from "../assets/poke.png";
 import tiktik from "../assets/tiktik.png";
+import ecom from "../assets/ecommerce.png";
 import {
   weatherprojectLinks,
   PlayerMusicLinks,
@@ -19,6 +20,7 @@ import {
   movieTicketLink,
   pokeLink,
   tiktikLink,
+  ecomLink,
 } from "./ProjectLink";
 
 export const projectCssList = [
@@ -88,6 +90,13 @@ export const projectMainReactList = [
     skill: "Reactjs, Redux, Tailwindcss",
     demo: movieTicketLink[0],
     src: movieTicketLink[1],
+  },
+  {
+    name: "Ecommerce Web Shopping Online",
+    image: ecom,
+    skill: "React, Nextjs, Stripe",
+    demo: ecomLink[0],
+    src: ecomLink[1],
   },
   {
     name: "Tik Tok Short Video Social",
