@@ -99,7 +99,7 @@ export const projectMainReactList = [
     src: ecomLink[1],
   },
   {
-    name: "Tik Tok Short Video Social",
+    name: "TikTik Short Video Social",
     image: tiktik,
     skill: "Nextjs, Typescript, Tailwindcss",
     demo: tiktikLink[0],
