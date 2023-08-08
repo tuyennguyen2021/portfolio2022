@@ -67,7 +67,7 @@ function Home() {
           <a href="https://github.com/tuyennguyen2021" target="_blank">
             <GithubIcon />
           </a>
-          <p> &copy; 2022 by Tuyen Nguyen</p>
+          <p> &copy; 2023 by Tuyen Nguyen</p>
         </div>
       </div>
     </motion.div>
