@@ -48,11 +48,11 @@ function Projects() {
           />
           <div className="title">
             <p>My full name: Nguyen Huynh Quang Tuyen</p>
-            <p>28 years old</p>
+            <p>29 years old</p>
             <p>Base in: District 12 , Ho Chi Minh City</p>
             <p>Contact number: (+84)985054958</p>
             <p>
-              I’m a front-end developer, I love learning new technologies and
+              I’m a front-end developer learner, I love learning new technologies and
               building valuable application
             </p>
           </div>
@@ -119,7 +119,7 @@ function Projects() {
           <a href="https://github.com/tuyennguyen2021" target="_blank">
             <GithubIcon />
           </a>
-          <p> &copy; 2022 by Tuyen Nguyen</p>
+          <p> &copy; 2023 by Tuyen Nguyen</p>
         </div>
       </div>
     </motion.div>
